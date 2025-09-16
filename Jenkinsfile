@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: ' https://github.com/karlawd/8.2CDevSecOps.git'
+git branch: 'main', url: ' https://github.com/karlawd/nodejs-goof.git'
 }
 }
 stage('Install Dependencies') {
